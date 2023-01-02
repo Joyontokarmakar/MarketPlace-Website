@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.commonSpacing{
+     @apply max-w-[themeWidth] px-[120px];
+}
