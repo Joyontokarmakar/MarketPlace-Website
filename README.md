@@ -5,8 +5,9 @@
 ```
 git clone https://github.com/Joyontokarmakar/MarketPlace-Website.git
 ```
-## To Run Project follow the following steps:
-### 1.
+## To Run Project in your Local PC follow the following steps:
+
+### Step 1 - Installation.
 ```
 yarn
 ```
@@ -14,7 +15,7 @@ or
 ```
 npm install
 ```
-### 2. 
+### Step 2 - Project Run. 
 ```
 yarn dev -o
 ```
