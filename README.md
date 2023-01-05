@@ -1,42 +1,38 @@
-# Nuxt 3 Minimal Starter
+# A MarketPlace Website With Dynamic Content
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Here the following tasks are done:
+| SL | Test Cases |
+| --- | --- |
+| 1. | Login |
+| 2. | Get User List |
+| 3. | Update A Specefic Value |
+| 4. | Delete User |
+| 5. | Search User |
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+### **Clone From**:
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
+git clone https://github.com/Joyontokarmakar/MarketPlace-Website.git
+```
+### To Run Project follow the following steps:
+## 1.
+```
+yarn
+```
+or
+```
+npm install
+```
+##2. 
+```
+yarn dev -o
+```
+or
+```
 npm run dev
 ```
 
-## Production
+- The following report is generated:
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+|                   Project UI                     |
+| :----------------------------------------------: |
+| (![UI](https://user-images.githubusercontent.com/41202398/210837973-38711fa3-ac68-4829-9d29-dd29e33fdc41.png)|
