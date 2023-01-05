@@ -3,5 +3,37 @@
 @tailwind utilities;
 
 .commonSpacing{
-     @apply max-w-[themeWidth] px-[120px];
+     @apply lg:max-w-[themeWidth] px-10 lg:px-[120px];
+}
+
+::selection {
+     background-color: #3D00B7;
+     color: #FFF9F9;
+}
+
+/* Scroll bar */
+body {
+     overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+     width: 5px;
+     margin: 0px 2px;
+}
+
+::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 5px #fff;
+     -webkit-box-shadow: inset 0 0 5px #fff;
+     border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+     background: #00AC4F !important;
+     -webkit-background: #00AC4F !important;
+     border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+     background: #3D00B7 !important;
+     -webkit-background: #3D00B7 !important;
 }

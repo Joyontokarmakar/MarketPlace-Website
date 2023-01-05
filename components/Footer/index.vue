@@ -1,11 +1,11 @@
 <template>
      <div class="commonSpacing pt-20">
-          <div class="border-[#EFEFEF] border-b flex justify-between items-start gap-x-16 pb-[70px]">
-               <div class="w-[30%]">
+          <div class="border-[#EFEFEF] border-b flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-start pb-[70px]">
+               <div class="w-full lg:w-[30%]">
                     <img src="@/assets/images/logo-b&w.svg" alt="">
                     <div class="mt-6">
                          <p class="text-sm font-normal">The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.</p>
-                         <div class="flex justify-start gap-x-4 mt-8">
+                         <div class="flex flex-wrap justify-start gap-x-4 mt-8">
                               <NuxtLink to="/">
                                    <img src="@/assets/images/icons/social-media-fb-icon.svg" alt="">
                               </NuxtLink>
@@ -18,7 +18,7 @@
                          </div>
                     </div>
                </div>
-               <div class="w-[20%]">
+               <div class="w-full lg:w-[20%]">
                     <p class="text-lg leading-[23px] font-bold">Market Place</p>
                     <div class="mt-6">
                          <NuxtLink to="/" class="block text-sm font-medium text-[#3D3D3D]">All NFTs</NuxtLink>
@@ -31,7 +31,7 @@
                          <NuxtLink to="/" class="block text-sm font-medium text-[#3D3D3D]"></NuxtLink>
                     </div>
                </div>
-               <div class="w-[20%]">
+               <div class="w-full lg:w-[20%]">
                     <p class="text-lg leading-[23px] font-bold">My Account</p>
                     <div class="mt-6">
                          <NuxtLink to="/" class="block text-sm font-medium text-[#3D3D3D]">Profile</NuxtLink>
@@ -40,7 +40,7 @@
                          <NuxtLink to="/" class="block text-sm font-medium text-[#3D3D3D]">Settings</NuxtLink>
                     </div>
                </div>
-               <div class="w-[30%]">
+               <div class="w-full lg:w-[30%]">
                     <p class="text-lg leading-[23px] font-bold">Stay in the loop</p>
                     <div class="mt-6">
                          <p class="text-sm font-normal">Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
