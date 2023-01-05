@@ -1,13 +1,14 @@
 ## A MarketPlace Website With Dynamic Content
 ## [Live Site](https://nft-dynamic-marketplace.netlify.app/)
 
-### **Clone From**:
+## To Run Project in your Local PC follow the following steps:
+
+### Step 1 - Clone My Github Repository from:
 ```
 git clone https://github.com/Joyontokarmakar/MarketPlace-Website.git
 ```
-## To Run Project in your Local PC follow the following steps:
 
-### Step 1 - Installation.
+### Step 2 - Installation.
 ```
 yarn
 ```
@@ -15,7 +16,7 @@ or
 ```
 npm install
 ```
-### Step 2 - Project Run. 
+### Step 3 - Project Run. 
 ```
 yarn dev -o
 ```
